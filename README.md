@@ -1,0 +1,3 @@
+# EEG_NLP_1
+/data/...
+https://drive.google.com/file/d/1wS-ckmCpaNDH36VBqtsKnPmVXucBTraC/view?usp=share_link
