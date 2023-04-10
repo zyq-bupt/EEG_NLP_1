@@ -1,0 +1,29 @@
+import json
+import spacy
+import re
+import os
+import math
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfTransformer
+import numpy as np
+
+if __name__ == '__main__':
+
+    # # 提取语料库，为计算tfidf。
+    # corpus_hash_file='./corpus/corpus_hash.json'
+    # with open(corpus_hash_file, "r") as f:
+    #     hashlist=json.load(f)
+    # filepath='./corpus/human_annotations_sentence.json'
+    # with open(filepath, 'r') as load_f:
+    #     samples=json.load(load_f)
+    # print(len(hashlist))
+    # corpus=[]
+    # pickedhash=[]
+    # for sample_dict in samples:
+    #     if sample_dict['hash'] in hashlist and sample_dict['hash'] not in pickedhash:
+    #         corpus.append(sample_dict['article'])
+    #         pickedhash.append(sample_dict['hash'])
+    # print('corpus before.shape:', len(corpus))
+    # corpus_file="./corpus/corpus.json"
+    # with open(corpus_file, "w") as f:
+    #     json.dump(corpus, f, indent=1)
