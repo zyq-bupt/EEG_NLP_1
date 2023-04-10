@@ -1,0 +1,909 @@
+[
+ {
+  "hash": "40407620",
+  "model_name": "BERTS2S",
+  "article": "Mr-Gustafsson, 42, is being flown back to Sweden from Africa, Sweden's Foreign-Minister Margot-Wallstrom said in a statement on Monday. He was seized by al-Qaeda in the Islamic-Maghreb (AQIM) along with two other men, one of whom was freed in a dawn raid in 2015. Ms-Wallstrom said Mr-Gustafsson was \"in good spirits\", local media report. \"It is with great pleasure that I can announce that Johan-Gustafsson has been released,\" Ms-Wallstrom added. She said that the Swede's release was thanks to \"extensive efforts\" and co-operation between the Swedish foreign ministry, police and \"foreign authorities\". Ms-Wallstrom said she had spoken with Mr-Gustafsson, who she described as being \"happy\" and \"overwhelmed\" by Monday's events. \"I cannot say more at the current time,\" she added. Sweden's former Foreign-Minister Carl-Bildt said that Mr-Gustafsson's kidnapping weighed heavily on his mind during his time in the role, which ended in 2014. He tweeted on Monday: \"Extremely gratifying that Johan-Gustafsson is free. No single case concerned me more as foreign minister. \" Mr-Gustafsson was kidnapped along with South-African Stephen-McGown and Dutchman-Sjaak-Rijke. Mr-Rijke was freed by French special forces in April 2015 after he was discovered by chance in a dawn raid in northern Mali. AQIM took a number of Western hostages before the French military deployed its forces in January 2013. In a separate incident in December 2014, French hostage Serge-Lazarevic was freed after a prisoner swap.",
+  "summary": "sweden\\'s foreign minister johan gustsson has been freed after being kidnapped by islamist militants in mali.",
+  "reference": "Hostage Johan Gustafsson, held by al-qaeda in Mali since 2011, has been freed, the Swedish government says.",
+  "summary_sentences": [
+   "sweden\\'s foreign minister johan gustsson has been freed after being kidnapped by islamist militants in mali."
+  ],
+  "summary_sentences_annotations": [
+   {
+    "annotator_0": [
+     "EntE"
+    ],
+    "annotator_1": [
+     "EntE"
+    ],
+    "annotator_2": [
+     "RelE",
+     "EntE",
+     "CircE"
+    ]
+   }
+  ],
+  "split": "test"
+ },
+ {
+  "hash": "40407620",
+  "model_name": "TranS2S",
+  "article": "Mr-Gustafsson, 42, is being flown back to Sweden from Africa, Sweden's Foreign-Minister Margot-Wallstrom said in a statement on Monday. He was seized by al-Qaeda in the Islamic-Maghreb (AQIM) along with two other men, one of whom was freed in a dawn raid in 2015. Ms-Wallstrom said Mr-Gustafsson was \"in good spirits\", local media report. \"It is with great pleasure that I can announce that Johan-Gustafsson has been released,\" Ms-Wallstrom added. She said that the Swede's release was thanks to \"extensive efforts\" and co-operation between the Swedish foreign ministry, police and \"foreign authorities\". Ms-Wallstrom said she had spoken with Mr-Gustafsson, who she described as being \"happy\" and \"overwhelmed\" by Monday's events. \"I cannot say more at the current time,\" she added. Sweden's former Foreign-Minister Carl-Bildt said that Mr-Gustafsson's kidnapping weighed heavily on his mind during his time in the role, which ended in 2014. He tweeted on Monday: \"Extremely gratifying that Johan-Gustafsson is free. No single case concerned me more as foreign minister. \" Mr-Gustafsson was kidnapped along with South-African Stephen-McGown and Dutchman-Sjaak-Rijke. Mr-Rijke was freed by French special forces in April 2015 after he was discovered by chance in a dawn raid in northern Mali. AQIM took a number of Western hostages before the French military deployed its forces in January 2013. In a separate incident in December 2014, French hostage Serge-Lazarevic was freed after a prisoner swap.",
+  "summary": "swedish foreign minister johan gusttrom has been freed after two suspected kidnappings in a raid in mali, his foreign ministry says.",
+  "reference": "Hostage Johan-Gustafsson, held by al-qaeda in Mali since 2011, has been freed, the Swedish government says.",
+  "summary_sentences": [
+   "swedish foreign minister johan gusttrom has been freed after two suspected kidnappings in a raid in mali, his foreign ministry says."
+  ],
+  "summary_sentences_annotations": [
+   {
+    "annotator_0": [
+     "EntE"
+    ],
+    "annotator_1": [
+     "EntE"
+    ],
+    "annotator_2": [
+     "RelE",
+     "EntE",
+     "CircE",
+     "OutE"
+    ]
+   }
+  ],
+  "split": "test",
+  "question1": "An elephant is injured.",
+  "question2": "The girl died after being taken to a hospital.",
+  "question3": "It is very unusual for elephants to throw stones."
+ },
+ {
+  "hash": "36914884",
+  "model_name": "BERTS2S",
+  "article": "The stone got past the elephant's fence and a ditch separating the animal and visitors, the zoo said in a statement. The girl was taken to hospital and died within a few hours, the zoo added. The zoo statement said the enclosure met international standards and said \"this kind of accident is rare, unpredictable and unusual\". The statement went on (in French) to point out two other recent incidents in the US: In June an alligator killed a two-year-old boy at Walt-Disney-World in Florida. In May, zookeepers killed a gorilla at Cincinnati-Zoo after a three-year-old boy fell into its enclosure. Phyllis-Lee, Scientific-Director of the Amboseli-Trust for Elephants, says that targeted throwing of stones and branches by elephants is very unusual. \"It can happen when elephants are frustrated or bored. In my opinion, it's unlikely the elephant was directly targeting the girl but exhibiting frustration. You can't predict what animals in captivity will do.\" The moments after the girl was struck at Rabat-Zoo on Tuesday were filmed by a bystander and uploaded onto YouTube. The video shows the elephant waving its trunk behind a fence and swerves round to show a stone on the ground. Metres away people are gathered around the girl, holding her head and stroking her leg.",
+  "summary": "an elephant has been hit by a stone at a zoo in western france after it was hit by a tree.",
+  "reference": "a seven-year-old girl has died after being hit by a stone thrown by an elephant from its enclosure at Rabat-Zoo in Morocco.",
+  "summary_sentences": [
+   "an elephant has been hit by a stone at a zoo in western france after it was hit by a tree."
+  ],
+  "summary_sentences_annotations": [
+   {
+    "annotator_0": [
+     "EntE",
+     "CircE",
+     "LinkE"
+    ],
+    "annotator_1": [
+     "EntE",
+     "CircE"
+    ],
+    "annotator_2": [
+     "RelE",
+     "EntE",
+     "CircE",
+     "OutE"
+    ],
+    "qusetion1": "An elephant is injured.",
+    "qusetion2": "The girl died after being taken to a hospital.",
+    "qusetion3": "It is very unusual for elephants to throw stones."
+   }
+  ],
+  "split": "test"
+ },
+ {
+  "hash": "36914884",
+  "model_name": "TConvS2S",
+  "article": "The stone got past the elephant's fence and a ditch separating the animal and visitors, the zoo said in a statement. The girl was taken to hospital and died within a few hours, the zoo added. The zoo statement said the enclosure met international standards and said \"this kind of accident is rare, unpredictable and unusual\". The statement went on (in French) to point out two other recent incidents in the US: In June an alligator killed a two-year-old boy at Walt-Disney-World in Florida. In May, zookeepers killed a gorilla at Cincinnati-Zoo after a three-year-old boy fell into its enclosure. Phyllis-Lee, Scientific-Director of the Amboseli-Trust for Elephants, says that targeted throwing of stones and branches by elephants is very unusual. \"It can happen when elephants are frustrated or bored. In my opinion, it's unlikely the elephant was directly targeting the girl but exhibiting frustration. You can't predict what animals in captivity will do.\" The moments after the girl was struck at Rabat-Zoo on Tuesday were filmed by a bystander and uploaded onto YouTube. The video shows the elephant waving its trunk behind a fence and swerves round to show a stone on the ground. Metres away people are gathered around the girl, holding her head and stroking her leg.",
+  "summary": "an elephant has died after being hit by a elephant at a zoo in the us state of idaho.",
+  "reference": "a seven-year-old girl has died after being hit by a stone thrown by an elephant from its enclosure at Rabat-Zoo in Morocco.",
+  "summary_sentences": [
+   "an elephant has died after being hit by a elephant at a zoo in the us state of idaho."
+  ],
+  "summary_sentences_annotations": [
+   {
+    "annotator_0": [
+     "EntE",
+     "CircE"
+    ],
+    "annotator_1": [
+     "EntE",
+     "CircE"
+    ],
+    "annotator_2": [
+     "RelE",
+     "EntE",
+     "CircE"
+    ],
+    "qusetion1": "An elephant is injured.",
+    "qusetion2": "The girl died after being taken to a hospital.",
+    "qusetion3": "It is very unusual for elephants to throw stones."
+   }
+  ],
+  "split": "test"
+ },
+ {
+  "hash": "36914884",
+  "model_name": "TranS2S",
+  "article": "The stone got past the elephant's fence and a ditch separating the animal and visitors, the zoo said in a statement. The girl was taken to hospital and died within a few hours, the zoo added. The zoo statement said the enclosure met international standards and said \"this kind of accident is rare, unpredictable and unusual\". The statement went on (in French) to point out two other recent incidents in the US: In June an alligator killed a two-year-old boy at Walt Disney World in Florida. In May, zookeepers killed a gorilla at Cincinnati Zoo after a three-year-old boy fell into its enclosure. Phyllis Lee, Scientific Director of the Amboseli Trust for Elephants, says that targeted throwing of stones and branches by elephants is very unusual. \"It can happen when elephants are frustrated or bored. In my opinion, it's unlikely the elephant was directly targeting the girl but exhibiting frustration. You can't predict what animals in captivity will do.\" The moments after the girl was struck at Rabat Zoo on Tuesday were filmed by a bystander and uploaded onto YouTube. The video shows the elephant waving its trunk behind a fence and swerves round to show a stone on the ground. Metres away people are gathered around the girl, holding her head and stroking her leg.",
+  "summary": "an elephant has been killed by an elephant at a zoo in paris.",
+  "reference": "a seven-year-old girl has died after being hit by a stone thrown by an elephant from its enclosure at Rabat Zoo in Morocco.",
+  "summary_sentences": [
+   "an elephant has been killed by an elephant at a zoo in paris."
+  ],
+  "summary_sentences_annotations": [
+   {
+    "annotator_0": [
+     "EntE",
+     "CircE"
+    ],
+    "annotator_1": [
+     "EntE",
+     "CircE"
+    ],
+    "annotator_2": [
+     "EntE",
+     "CircE"
+    ],
+    "qusetion1": "An elephant is injured.",
+    "qusetion2": "The girl died after being taken to a hospital.",
+    "qusetion3": "It is very unusual for elephants to throw stones."
+   }
+  ],
+  "split": "test"
+ },
+ {
+  "hash": "26668081",
+  "model_name": "TranS2S",
+  "article": "The animal had been shot twice in the shoulder and once in its left back leg, which vets had to amputate. The charity said the one-year-old cat was \"incredibly lucky\" to survive. Last year the Scottish government held a consultation on licensing air weapons, but a majority of responders opposed the plan. One-year-old Teenie was found injured by her owner Sarah-Nisbett in NiddryView, Winchburgh, at about 16:30 on Friday-14-March and taken to the Scottish-SPCA. Mrs-Nisbett said the cat was now having to learn how to walk again. \"The gun that was used must have some power because the pellet actually went through her back leg, that's why it was so badly damaged,\" she said. \"She's now learning how to hop around the house, it's terrible. \"The fact that it was three shots is crazy. We live in a housing estate and there are lots of kids. That just makes it worse because any of them could have been hit in the crossfire.\" She added: \"There's some sick people out there, hopefully somebody will know who's done this and let the police or the Scottish-SPCA know.\" Scottish-SPCA Ch-Supt-Mike-Flynn said: \"Teenie's owners are understandably very upset and keen for us to find the callous person responsible to ensure no more cats come to harm. \"This is an alarming incident which only highlights why the Scottish government should implement the licensing of airguns as a matter of urgency.\" He added: \"The new licensing regime should ensure that only those with a lawful reason are allowed to possess such a dangerous weapon. It will also help the police trace anyone using an air gun irresponsibly.\" Last year the Scottish government launched a consultation on licensing air weapons, with a large majority of those who responded opposing the plan.Under the proposed scheme, anyone wanting to own an air gun would need to demonstrate they had a legitimate reason for doing so. A total of 87% of respondents rejected the idea with some describing it as \"draconian\" and \"heavy-handed\".  A small number of people felt ministers were not going far enough. The Scottish-SPCA urged anyone with information about the incident to contact them.",
+  "summary": "the scottish spca has called for a licensing of airguns after the scottish spca was shot in the leg by a gunman.",
+  "reference": "an animal charity is calling for the licensing of air guns after a cat in West Lothian was left injured after being shot three times.",
+  "summary_sentences": [
+   "the scottish spca has called for a licensing of airguns after the scottish spca was shot in the leg by a gunman."
+  ],
+  "summary_sentences_annotations": [
+   {
+    "annotator_0": [
+     "EntE"
+    ],
+    "annotator_1": [
+     "EntE"
+    ],
+    "annotator_2": [
+     "EntE"
+    ]
+   }
+  ],
+  "split": "test"
+ },
+ {
+  "hash": "22021705",
+  "model_name": "TConvS2S",
+  "article": "The incident began on Tuesday morning when border agents encountered two men carrying backpacks five-miles(8km) east of Sumas, Washington, in the US. Authorities say agents interrupted an attempt to smuggle a load of MDMA, or ecstasy, from Canada to San-Francisco. Two others were arrested and accused of planning to transport the drugs. On Tuesday morning, US border agents ordered the two men they encountered near the border to halt, officials said. One of the men dropped his backpack, fired a weapon at the agents, and ran, according to a criminal complaint filed in US federal court in Washington on Wednesday. The officers took the other man, identified as Jeffrey-Laviolette, into custody immediately. Canadian and US police searched for the fugitive on foot and by helicopter, putting up road blocks. Nathan-Hall, a Canadian citizen, was arrested by the Abbotsford-Police-Department in British-Columbia early on Wednesday morning. According to border patrol agents, the backpacks Mr-Hall and Mr-Laviolette were carrying contained a total of 58lb(26kg) of ecstasy. Also inside one backpack was a California driver's licence with the name of William-Nickerson but a picture of Nathan-Hall, the complaint alleges. Investigators later arrested a Bellingham, Washington woman, Kali-Henifin, who they say planned to pick the two men up at the border. They also arrested her boyfriend, Ryan-Lambert, who allegedly told officers he was to be paid $11,000 to drive the drugs to San-Francisco. Ms-Henifin told agents they had been monitoring police radio communication on a mobile phone when they heard a report of a shooting and left the area, according to the complaint. The three defendants in US custody face conspiracy as well as drug possession and distribution charges.The wooded area a few miles east of a highway border crossing is a well-known smuggling route for drugs and firearms, and a spokeswoman for the US attorney for the Western-District of Washington told the BBC smuggling prosecutions are \"a large part of our practice\".",
+  "summary": "two us police officers have been arrested in washington on suspicion of attempting to smuggle a drugs into the us, officials say.",
+  "reference": "Four people are in custody in the US and Canada after a suspected drug smuggler fired on US border agents and fled, sparking a day-long manhunt.",
+  "summary_sentences": [
+   "two us police officers have been arrested in washington on suspicion of attempting to smuggle a drugs into the us, officials say."
+  ],
+  "summary_sentences_annotations": [
+   {
+    "annotator_0": [
+     "EntE"
+    ],
+    "annotator_1": [
+     "EntE"
+    ],
+    "annotator_2": [
+     "EntE"
+    ]
+   }
+  ],
+  "split": "test"
+ },
+ {
+  "hash": "38693675",
+  "model_name": "BERTS2S",
+  "article": "Ken-Dickie, 64, died in hospital on 14 May, six days after the incident at the Rockley-Park site in Poole. Jamie-Mitchell, 35, of Apple-Close, had admitted intervening in an argument between Mr-Dickie and his mother. He shouted \"yes\" and was visibly shaking after the verdict was announced by a jury at Winchester-Crown-Court. The trial heard Mrs-Mitchell and Mr-Dickie had been in a relationship for several years and were going through a \"down phase\" when Mr-Mitchell visited his mother at the park on 7 May. In the evening, Mr-Mitchell accompanied his mother and Mr-Dickie to the holiday park bar and got \"tanked up\" on alcohol. The two men had a confrontation outside and were separated by members of the public. Mr-Mitchell had pleaded guilty to common assault in relation to the fight. He and his mother Samantha, 57, also of Apple-Close, also admitted attempting to pervert the course of justice by lying about the course of events. The court heard the pair had initially told police that Mr-Dickie had pushed Mrs-Mitchell and she had pushed him back. But Mr-Mitchell later told police that he had tried to push the couple apart, causing what he described as a \"tragic accident\". The pair will be sentenced on 6 February.",
+  "summary": "a man has been found guilty of the manslaughter of his mother who died after a fight at a holiday park.",
+  "reference": "A man has been found not guilty of the manslaughter of his mother\\'s partner who died after falling and hitting his head on the ground at a holiday park.",
+  "summary_sentences": [
+   "a man has been found guilty of the manslaughter of his mother who died after a fight at a holiday park."
+  ],
+  "summary_sentences_annotations": [
+   {
+    "annotator_0": [
+     "RelE",
+     "EntE"
+    ],
+    "annotator_1": [
+     "RelE",
+     "EntE"
+    ],
+    "annotator_2": [
+     "RelE",
+     "EntE"
+    ]
+   }
+  ],
+  "split": "test"
+ },
+ {
+  "hash": "34578307",
+  "model_name": "TranS2S",
+  "article": "The Asian-Civilisation-Museum (ACM) bought the artwork for $650,000 from New-York dealer Art of the Past in 2007. The company's manager later admitted selling stolen Indian antiquities, including the bronze being returned. The allegations first came to light during a 2012 court case against the firm for trafficking antiquities. The sculpture of Hindu goddess Uma-Parameshvari is thought to have been stolen from a Shiva temple in Tamil-Nadu in southern India. The decision to return the item came after discussions between Singapore's National-Heritage-Board and the Indian government body looking after its antiquities, the Archaeological-Survey-of-India (ASI). The ASI submitted an official request for the return of the sculpture in May, according to the museum. \"While there is no conclusive proof that the sculpture was stolen from a Shiva temple in Tamil-Nadu, India, ACM took note of the confession of Aaron-Freedman, who was the manager of Art of the Past, of dealing in looted Indian antiquities and of criminal possession of 150 stolen objects,\" the museum said in a statement. It was one of 30 objects ACM bought from the art dealer, although none of the others are thought to be listed as stolen. The ASI was reportedly allowed to view them, anyway.The museum said it will take legal action to get compensation for the apparent fraud.",
+  "summary": "an indian museum has bought a bronze sculpture of a hindu temple that was stolen from a hindu temple in india.",
+  "reference": "A singapore museum will return to india an 11th century sculpture believed to have been stolen from that country.",
+  "summary_sentences": [
+   "an indian museum has bought a bronze sculpture of a hindu temple that was stolen from a hindu temple in india."
+  ],
+  "summary_sentences_annotations": [
+   {
+    "annotator_0": [
+     "EntE"
+    ],
+    "annotator_1": [
+     "EntE"
+    ],
+    "annotator_2": [
+     "EntE"
+    ]
+   }
+  ],
+  "split": "test"
+ },
+ {
+  "hash": "21405673",
+  "model_name": "BERTS2S",
+  "article": "Denise-Fergus said she had been \"let down so many times by the system\" but that she would continue to \"fight\". Jon-Venables and Robert-Thompson were convicted of killing two-year-old James in Bootle, Merseyside in 1993. Mrs-Fergus said she believed Venables was capable of harming other people if he was released from prison. He was recalled to prison in 2010. He had been released from prison in 2001, having served seven years of a life sentence, but was recalled when he pleaded guilty to downloading and distributing indecent images of children. Mrs-Fergus, speaking to the BBC to mark the 20th anniversary of the killing, said: \"Do not release him. I still don't think he's capable of walking amongst other people. \"He will do someone else harm. It's in him, and I strongly believe if he's released he will go on to hurt someone else.\" Thompson, who was also released in 2001 after eight years in detention, was given a new secret identity and address. Venables was aged 10 when he and Thompson abducted and murdered James, beating him with bricks and iron bars and leaving his body on a railway line. James' mother described it as \"a stupid, silly little mistake\" of hers to let go of her child's hand for a few seconds on 12-February 1993 at the New-Strand-Shopping-Centre in Bootle. She said it \"still feels so raw to this day\". \"I still can't understand how it happened, or why it happened.\" Mrs-Fergus set up a charity, named after her son, to support young people who have become the victims of crime, hatred or bullying. Asked if, after 20 years, she should move on, Mrs-Fergus said: \"Why should I let it go? They took the most precious thing away from me. I won't let it go. And I've always said if there's a fight there to be fought, then I'll fight it for James. \"If I let go of that now I will feel I've let James down.  That is something I'll never do, I'll never let James down. I want justice for James. He's never had justice. \"She has campaigned to have both men kept in prison, and said: \"I did warn the authorities that one of them or both of them would go on to reoffend, and I was proven right with Venables. \"She said her family -her husband and three sons- mention James often. \"I think the day I stop talking about him is the day I give up on life, but I'll never stop talking about him, never stop remembering him.\"",
+  "summary": "the mother of one of two men murdered by the toddler james bulger has said she will not give up on the case.",
+  "reference": "The mother of murdered toddler James-Bulger says she still ``wants justice\\'\\'20 years after her son\\'s death.",
+  "summary_sentences": [
+   "the mother of one of two men murdered by the toddler",
+   "james bulger has said she will not give up on the case."
+  ],
+  "summary_sentences_annotations": [
+   {
+    "annotator_0": [
+     "GramE"
+    ],
+    "annotator_1": [
+     "EntE"
+    ],
+    "annotator_2": [
+     "EntE"
+    ]
+   },
+   {
+    "annotator_0": [
+     "EntE"
+    ],
+    "annotator_1": [
+     "EntE"
+    ],
+    "annotator_2": [
+     "EntE"
+    ]
+   }
+  ],
+  "split": "test"
+ },
+ {
+  "hash": "21405673",
+  "model_name": "TConvS2S",
+  "article": "Denise-Fergus said she had been \"let down so many times by the system\" but that she would continue to \"fight\". Jon-Venables and Robert-Thompson were convicted of killing two-year-old James in Bootle, Merseyside in 1993. Mrs-Fergus said she believed Venables was capable of harming other people if he was released from prison. He was recalled to prison in 2010. He had been released from prison in 2001, having served seven years of a life sentence, but was recalled when he pleaded guilty to downloading and distributing indecent images of children. Mrs-Fergus, speaking to the BBC to mark the 20th anniversary of the killing, said: \"Do not release him. I still don't think he's capable of walking amongst other people. \"He will do someone else harm. It's in him, and I strongly believe if he's released he will go on to hurt someone else.\" Thompson, who was also released in 2001 after eight years in detention, was given a new secret identity and address. Venables was aged 10 when he and Thompson abducted and murdered James, beating him with bricks and iron bars and leaving his body on a railway line. James' mother described it as \"a stupid, silly little mistake\" of hers to let go of her child's hand for a few seconds on 12-February 1993 at the New-Strand-Shopping-Centre in Bootle. She said it \"still feels so raw to this day\". \"I still can't understand how it happened, or why it happened.\" Mrs-Fergus set up a charity, named after her son, to support young people who have become the victims of crime, hatred or bullying. Asked if, after 20 years, she should move on, Mrs-Fergus said: \"Why should I let it go? They took the most precious thing away from me. I won't let it go. And I've always said if there's a fight there to be fought, then I'll fight it for James. \"If I let go of that now I will feel I've let James down.  That is something I'll never do, I'll never let James down. I want justice for James. He's never had justice. \"She has campaigned to have both men kept in prison, and said: \"I did warn the authorities that one of them or both of them would go on to reoffend, and I was proven right with Venables. \"She said her family -her husband and three sons- mention James often. \"I think the day I stop talking about him is the day I give up on life, but I'll never stop talking about him, never stop remembering him.\"",
+  "summary": "the mother of murdered toddler james bulger has said she is ``devastated\\'\\'after being released from prison.",
+  "reference": "the mother of murdered toddler james bulger says she still ``wants justice\\'\\'20 years after her son\\'s death.",
+  "summary_sentences": [
+   "the mother of murdered toddler james bulger has said she is ``devastated\\'\\'after being released from prison."
+  ],
+  "summary_sentences_annotations": [
+   {
+    "annotator_0": [
+     "EntE"
+    ],
+    "annotator_1": [
+     "RelE",
+     "EntE"
+    ],
+    "annotator_2": [
+     "RelE",
+     "EntE"
+    ]
+   }
+  ],
+  "split": "test"
+ },
+ {
+  "hash": "39860898",
+  "model_name": "PtGen",
+  "article": "Thomas-Baker, known as Tommy, was found badly injured at Stanley-Meat-Market in the Old-Swan area of Liverpool on 27 January. The 44-year-old, from Everton, had been shot in the head and chest. He died later in hospital. The three Liverpool men arrested - two aged 29 and the other 32 - remain in police custody for questioning. Merseyside Police said Mr-Baker had left Phoenix-Gym at the market shortly before he was shot while getting into his car. Detectives believe those involved in the shooting had been waiting outside the gym for about an hour. Det-Ch-Insp-Bev-Hyland said officers were still searching for a silver car (VW-polo), which \"left the scene at speed\" and travelled along a number of roads including Balmoral-Road, Molyneux-Road and Queens-Road. She added that a number of people captured on CCTV near the meat market had yet to come forward and while \"they may not think what they saw would be of any significance, they could have information which is key to our inquiries\".",
+  "summary": "a man has been arrested on suspicion of attempted murder after a shooting at a meat market in liverpool.",
+  "reference": "Three men have been arrested on suspicion of murder over the shooting of a man at a meat market.",
+  "summary_sentences": [
+   "a man has been arrested on suspicion of attempted murder after a shooting at a meat market in liverpool."
+  ],
+  "summary_sentences_annotations": [
+   {
+    "annotator_0": [
+     "EntE"
+    ],
+    "annotator_1": [
+     "EntE"
+    ],
+    "annotator_2": [
+     "EntE",
+     "CircE"
+    ]
+   }
+  ],
+  "split": "test"
+ },
+ {
+  "hash": "39860898",
+  "model_name": "TranS2S",
+  "article": "Thomas-Baker, known as Tommy, was found badly injured at Stanley-Meat-Market in the Old-Swan area of Liverpool on 27 January. The 44-year-old, from Everton, had been shot in the head and chest. He died later in hospital. The three Liverpool men arrested - two aged 29 and the other 32 - remain in police custody for questioning. Merseyside Police said Mr-Baker had left Phoenix-Gym at the market shortly before he was shot while getting into his car. Detectives believe those involved in the shooting had been waiting outside the gym for about an hour. Det-Ch-Insp-Bev-Hyland said officers were still searching for a silver car (VW-polo), which \"left the scene at speed\" and travelled along a number of roads including Balmoral-Road, Molyneux-Road and Queens-Road. She added that a number of people captured on CCTV near the meat market had yet to come forward and while \"they may not think what they saw would be of any significance, they could have information which is key to our inquiries\".",
+  "summary": "a man has been arrested on suspicion of murder after a man was shot dead in liverpool.",
+  "reference": "three men have been arrested on suspicion of murder over the shooting of a man at a meat market.",
+  "summary_sentences": [
+   "a man has been arrested on suspicion of murder after a man was shot dead in liverpool."
+  ],
+  "summary_sentences_annotations": [
+   {
+    "annotator_0": [
+     "EntE"
+    ],
+    "annotator_1": [
+     "EntE"
+    ],
+    "annotator_2": [
+     "EntE"
+    ]
+   }
+  ],
+  "split": "test"
+ },
+ {
+  "hash": "d24a4e0de51b23951156877dd92f581ffff7d12c",
+  "model_name": "bus",
+  "article": "An Uber driver who was credited with stopping a potential mass shooting in Chicago at the weekend by pulling out his own personal firearm and shooting the would-be gunman will not face any charges for his actions, a court has decided. Prosecutors say the driver with a concealed carry permit shot a 22-year-old man who opened fire on a group of pedestrians in Logan-Square. Court records say the man, identified by The Washington-Post as Everardo-Custodio, shot at people walking in front of the driver's vehicle on Friday night in the busy neighborhood. The driver - a 47-year-old man from the Little-Italy neighborhood - then grabbed his own weapon and fired six rounds at Custodio, striking him multiple times. The bullets hit him in the legs and lower back, according to reports. The man was taken to a local hospital for treatment. The incident occurred about 11.50pm and there were no other injuries. Police have not yet released a motive for Everado's shooting. However Assistant State's Attorney Barry-Quinn says the driver, who has a firearm owner's identification card, acted in self-defense and the defense of others. The driver is not facing charges Everado was ordered held without bail Sunday. He's facing charges of aggravated battery with a firearm and illegal possession of a firearm.",
+  "summary": "everardo custodio , 22 , grabbed his own firearm and shot custodio multiple times in the legs and lower back . prosecutors say the driver with a concealed carry permit shot a 22-year-old man who opened fire on a group of pedestrians in logan square . the driver - a man , was taken to a hospital for treatment .",
+  "reference": "Everado-Custodio , 22 , allegedly opened fire at a crowd in Logan-Square , Chicago , about 11.50 pm Friday night . Happened in front of Uber driver , 47 , who pulled out his personal firearm and shot Custodio several times in the legs and lower back . There were no other injuries . Investigation determined the driver will not face an charges because he acted in self defense and the defense of others .",
+  "summary_sentences": [
+   "everardo custodio , 22 , grabbed his own firearm and shot custodio multiple times in the legs and lower back .",
+   "prosecutors say the driver with a concealed carry permit shot a 22-year-old man who opened fire on a group of pedestrians in logan square .",
+   "the driver - a man , was taken to a hospital for treatment ."
+  ],
+  "summary_sentences_annotations": [
+   {
+    "annotator_0": [
+     "EntE"
+    ],
+    "annotator_1": [
+     "EntE"
+    ],
+    "annotator_2": [
+     "EntE"
+    ]
+   },
+   {
+    "annotator_0": [
+     "NoE"
+    ],
+    "annotator_1": [
+     "NoE"
+    ],
+    "annotator_2": [
+     "NoE"
+    ]
+   },
+   {
+    "annotator_0": [
+     "EntE"
+    ],
+    "annotator_1": [
+     "EntE"
+    ],
+    "annotator_2": [
+     "EntE"
+    ]
+   }
+  ],
+  "split": "test"
+ },
+ {
+  "hash": "7b64ed2057255f31383bfb888bbb1284ce3b027d",
+  "model_name": "s2s",
+  "article": "The humble honeybee may only be small, but scientists are hoping to use its brain to power a series of futuristic-style drones. Boffins are currently working towards digitally recreating the cognitive abilities of the Apis-Mellifera or European Honeybee. Their final aim is to build a robot that thinks, senses and acts just like the tiny insects. Scientists are working towards building a robot that thinks, senses and acts just like a honeybee. Professor James-Marshall said if they were able to recreate a fraction of the honeybees ability they would have made 'tremendous advances'. The artificial brain is being created by the Green-Brain-Project, which is a collaboration between researchers from the Universities of Sheffield and Sussex. One day it is hoped the remote controlled machines could be used to pollinate crops or even assist on search and rescue missions. 'Bees and all other insects are miracles of engineering which we are nowhere near equalling,' Professor James-Marshall reportedly told the BBC. 'If we could even recreate a fraction of their abilities in a robot system then we would have made a tremendous advance.' Building an artificial brain is a complex process and so far, scientist have only managed to clone the part of the bee's brain which allows it to see. To do this they mapped out the  brain of the honeybee and recreated it with circuits that fire on and off in an organic brain, Discovery-Magazine reported. The software is then uploaded into the drone's circuitry which enables it to  fly around in a similar fashion to the bee. The projects team now has three quadcopters and one ground robot, each with unique abilities and configurations. Tests are being carried out in a dedicated flying room based at the University of Sheffield. In a video footage showing initial tests the drone, powered by the artificial bee brain, can be seen flying down a corridor. On the Green-Brain website it states: 'Since the start of the project, the GB team has setup the lab, built and tested our robots, and begun to demonstrate some sophisticated visual-based navigation and cognitive functions through embodiment. 'Current projects include navigation using the GB models, flight tests of our models with the BeeBot quadcopter, developing a Ground-Control-Station, initial testing with the chemosensors and more.' Building an artificial brain is a complex process and so far, scientist have only managed to clone the part of the bee's brain which allows it to see",
+  "summary": "scientists are working to create a robot that thinks , senses and acts just like a boa . they are currently working towards building a robot that thinks , senses and acts just like a boa . scientists are working towards building a robot that thinks , senses and acts just like a boa .",
+  "reference": "Scientists aim to build robot that thinks, senses and acts like honeybee.  So far team has managed to replicate part of brain that allows bee to see. Green-Brain-Project is a collaboration between universities of sheffield and sussex.",
+  "summary_sentences": [
+   "scientists are working to create a robot that thinks , senses and acts just like a boa .",
+   "they are currently working towards building a robot that thinks , senses and acts just like a boa .",
+   "scientists are working towards building a robot that thinks , senses and acts just like a boa ."
+  ],
+  "summary_sentences_annotations": [
+   {
+    "annotator_0": [
+     "EntE"
+    ],
+    "annotator_1": [
+     "EntE"
+    ],
+    "annotator_2": [
+     "EntE"
+    ]
+   },
+   {
+    "annotator_0": [
+     "EntE",
+     "CorefE"
+    ],
+    "annotator_1": [
+     "EntE"
+    ],
+    "annotator_2": [
+     "EntE"
+    ]
+   },
+   {
+    "annotator_0": [
+     "EntE"
+    ],
+    "annotator_1": [
+     "EntE"
+    ],
+    "annotator_2": [
+     "EntE"
+    ]
+   }
+  ],
+  "split": "valid"
+ },
+ {
+  "hash": "879e8cfb61b654aaff814b537fbe448fdc19c1e7",
+  "model_name": "s2s",
+  "article": "Two Transportation-Security-Administration (TSA) screeners have been fired after conspiring to grope attractive men at Denver-International-Airport, Denver police said.  Here's how police say the scheme worked: When the male TSA officer noticed a man he found attractive, he would alert a female TSA officer. The female officer would then tell the screening machine that a female passenger -- not a male -- was walking through. And that information would trigger a machine to register an anomaly in the groin area, prompting the male TSA officer to pat down the passenger, police said, citing a TSA investigation. But during the patdown, the male TSA officer used the palms of his hands to touch the passenger's front groin area and buttocks, which violates TSA policy. All this came to light after an anonymous tip from a TSA employee in November. The agency launched an investigation, and investigator Chris-Higgins monitored the two TSA officers in question, Denver police said in a report. Higgins watched the plan being carried out on February-9. He interviewed the female TSA officer, who said she had done this with her colleague at least 10 other times, police said. Both of the TSA officers investigated have been fired, TSA special agent Charles-Stone told police. Authorities did not release their names. The TSA called the incident deplorable. \"These alleged acts are egregious and intolerable,\" the agency said in a written statement to CNN. \"All allegations of misconduct are thoroughly investigated by the agency. And when substantiated, employees are held accountable.\" But it's unlikely criminal charges will be filed because there is no identifiable victim. The TSA said it has been trying to identify the passenger in the February incident but to no avail. The TSA said no passengers have come forward with similar cases so far at the Denver airport.",
+  "summary": "the tsa has been fired after an anonymous tip from a tsa employee in november . the tsa says it has been trying to identify the passenger in the incident . the tsa says no one is in the incident .",
+  "reference": "Police: A male TSA officer signaled to a female officer when he found a man attractive. Female officer would notify scanning machine a woman -- not a man -- was passing through. Police: That would trigger an anomaly in groin area, leading male officer to grope passenger.",
+  "summary_sentences": [
+   "the tsa has been fired after an anonymous tip from a tsa employee in november .",
+   "the tsa says it has been trying to identify the passenger in the incident .",
+   "the tsa says no one is in the incident ."
+  ],
+  "summary_sentences_annotations": [
+   {
+    "annotator_0": [
+     "EntE"
+    ],
+    "annotator_1": [
+     "EntE"
+    ],
+    "annotator_2": [
+     "EntE"
+    ]
+   },
+   {
+    "annotator_0": [
+     "CorefE"
+    ],
+    "annotator_1": [
+     "NoE"
+    ],
+    "annotator_2": [
+     "NoE"
+    ]
+   },
+   {
+    "annotator_0": [
+     "RelE"
+    ],
+    "annotator_1": [
+     "RelE"
+    ],
+    "annotator_2": [
+     "GramE"
+    ]
+   }
+  ],
+  "split": "test"
+ },
+ {
+  "hash": "1d965b7ef3e3aa66f4b55ca424496c3ff7307dcf",
+  "model_name": "bus",
+  "article": "Baseball has long been considered America's favorite pastime, so it should come as no surprise that most people feel very strongly when it comes to their favorite professional team. And there are no two baseball teams that are greater, or more storied, than eternal rivals the New-York-Yankees and Boston-Red-Sox, who come in first and second respectively in terms of the number of people who claim them as their favorite. Also making a very impressive showing are the Texas-Rangers and Atlanta-Braves, who have fans across a wide area in the South. Then there are a few teams who don't get as much love - like the New York Mets. Scroll down for video A new Facebook graph reveals the favorite baseball teams in the country by sorting through people's likes and breaking down winners by county The New-York-Yankees (left) and Boston-Red-Sox (right) come in first and second respectively in terms of the number of people who claim them as their favorite. The Mets are not the favorite team in one county in the country, with fans in their area seeming to all go for the Yankees. Same goes for the Oakland Athletics. The Toronto-Blue-Jays can also claim almost all of Canada, though the Yankees and Red-Sox are also favorites in some areas. The graph, created by Facebook, uses profile likes and then breaks the individuals down by country to determine a winner. And with the exception of those aforementioned Yankees, Red-Sox and recent World Series champs San-Francisco Giants, who get some love in Hawaii, most teams only really get support near their home field.",
+  "summary": "the new york yankees and boston red sox come in first and second . the yankees are not the favorite team in one county in the country . the toronto blue jays can also claim all of canada .",
+  "reference": "A new facebook graph reveals the favorite baseball teams in the country by sorting through people 's likes and breaking down winners by county. The New-York-Yankees and Boston-Red-Sox, who come in first and second respectively in terms of the number of fans. The New-York mets and Oakland athletics did not win one single county .",
+  "summary_sentences": [
+   "the new york yankees and boston red sox come in first and second .",
+   "the yankees are not the favorite team in one county in the country .",
+   "the toronto blue jays can also claim all of canada ."
+  ],
+  "summary_sentences_annotations": [
+   {
+    "annotator_0": [
+     "NoE"
+    ],
+    "annotator_1": [
+     "OtherE"
+    ],
+    "annotator_2": [
+     "NoE"
+    ]
+   },
+   {
+    "annotator_0": [
+     "EntE",
+     "GramE"
+    ],
+    "annotator_1": [
+     "EntE"
+    ],
+    "annotator_2": [
+     "EntE"
+    ]
+   },
+   {
+    "annotator_0": [
+     "CircE"
+    ],
+    "annotator_1": [
+     "CircE"
+    ],
+    "annotator_2": [
+     "CircE"
+    ]
+   }
+  ],
+  "split": "test"
+ },
+ {
+  "hash": "0fa083cb7da10f1f697e7dab6210397f00c0a4cf",
+  "model_name": "bus",
+  "article": "An argument between two Brisbane neighbours over noise levels has ended in tragedy with one man dead and another charged with manslaughter. Leon-Yeaman, 55, was allegedly killed by a single punch in the head from 28-year-old shift worker Phillip-Pama, 28, during a row in front of their north Brisbane homes. Mr-Yeaman was reportedly in his yard on Muller-Road making a lot of noise at around 9pm Thursday night. Phillip-Pama covered his face as he left Brisbane-Magistrate Courts where he was granted conditional bail on Friday. Pama, a married father of three, works a 3 am shift at a nearby warehouse and was sleeping at the time Mr-Yeaman was making a commotion. Pama's defence lawyer Bruce-Peters said Mr-Yeaman was known for getting drunk, playing loud music and yelling at 'the world at large'. Pama then confronted Mr-Yeaman and it was at that point the situation escalated. Mr-Peters said his client grabbed his neighbour by the hand and hit out 'blindly'. 'He was being pushed at the same time he was throwing the punch,' Mr-Peters revealed during a bail application for Pama. 'He didn't see it connect but he felt it connect.' The father of three allegedly killed his 55-year-old neighbour with one punch after he refused to turn his music down. Paramedics were unable to revive Mr-Yeaman who was pronounced dead at the scene at around 11pm on Thursday night. Neighbours described Mr-Yeaman as king and generous while his friend John-Fisher told ABC Radio he was a schizophrenic pensioner who enjoyed playing loud music. Pama shielded his face from reporters outside Brisbane-Magistrate Courts when he was granted bail on Friday. The Samoan man was ordered to surrender his passport, aherre to a curfew from 6pm to 2am and will have to report to the local police station twice a week. Pama, who has no history of violence, was reportedly 'beside himself' with grief. The case is due to return to court on May 18.",
+  "summary": "leon yeaman , 55 , was allegedly killed by a single punch in the head from 28-year-old shift worker phillip pama , 28 , during a row in front of their north brisbane homes . mr yeaman was granted conditional bail on friday . he was ordered to return to court on may 18 .",
+  "reference": "Two men got in an argument about noise levels on Thursday night. A scuffle broke out and Phillip-Pama struck Leon-Yeaman once in the head. Mr-Yeaman could not be revived and was announced dead at the scene. Pama has no history of violence and is reportedly 'beside himself'. His defence lawyer said he hit out 'blindly' and didn't see his punch connect. Pama was granted conditional bail and is set to return to court May 18.",
+  "summary_sentences": [
+   "leon yeaman , 55 , was allegedly killed by a single punch in the head from 28-year-old shift worker phillip pama , 28 , during a row in front of their north brisbane homes .",
+   "mr yeaman was granted conditional bail on friday .",
+   "he was ordered to return to court on may 18 ."
+  ],
+  "summary_sentences_annotations": [
+   {
+    "annotator_0": [
+     "NoE"
+    ],
+    "annotator_1": [
+     "NoE"
+    ],
+    "annotator_2": [
+     "NoE"
+    ]
+   },
+   {
+    "annotator_0": [
+     "EntE"
+    ],
+    "annotator_1": [
+     "EntE"
+    ],
+    "annotator_2": [
+     "EntE"
+    ]
+   },
+   {
+    "annotator_0": [
+     "EntE"
+    ],
+    "annotator_1": [
+     "NoE"
+    ],
+    "annotator_2": [
+     "NoE"
+    ]
+   }
+  ],
+  "split": "valid"
+ },
+ {
+  "hash": "07d6ceff2988640eaa91355d6612f15e0e03eb2d",
+  "model_name": "bus",
+  "article": "Rickie-Fowler has earned extra brownie points with his growing legion of fans after calling out an online hater who accused his girlfriend of being a 'gold digger.' The golfer's girlfriend, bikini model Alexis-Randock, had posted a photo on her Instagram account of her and sister Nicole on the beach last week. The photo was shared with her 25,000 followers, which included an abusive commenter known as 'fatalsplash' who was quick to judge and accused Alexis of being a 'gold digger.' Rickie-Fowler's girlfriend and bikini model Alexis-Randock poses for a picture with her sister Nicole. Randock (centre) was criticised by an online troll for not working due to her relationship with Fowler (right). Fowler  has earned extra brownie points with his growing legion of fans after calling out an online hater. A troll called 'fatalsplash' then accused Alexis of being a 'gold digger' who didn't have to work. 'Must be nice getting s*** free in life and not have to work for it,' he posted. It wasn't long before Fowler came to his girlfriend's defence and responded to the troll that he 'might want to get your facts straight before you talk to my girl friend like that', reports the Golf-Channel. Alexis also wasn't shy about standing up for herself. 'That's hilarious. I work my butt off to be able to fully support myself in NYC, I'm out here grinding to live a nice life,' she posted. Fowler received a number of positive comments from other posters who commended him on standing up for his girlfriend. 'Fatalsplash' - who has since changed his user name to -'@dont_hava_usename'- was roundly criticised, being called a moron and accused of working at McDonald's. The troll even attempted to backtrack by offering Alexis congratulations for supporting herself. Fowler told the hater to 'get your facts straight', while Alexis informed him that she worked her 'butt off' Fowler received a number of comments from posters who commended him on standing up for his girlfriend",
+  "summary": "rickie fowler accused alexis of being a ` gold digger ' who did n't have to work . the golfer was criticised by an online troll for not working due to her relationship with fowler . fowler has earned extra brownie points with his legion of fans .",
+  "reference": "Rickie-Fowler responded to online troll who abused his girlfriend. Bikini model Alexis-Randock had posted a photo on her instagram account. Randock was pictured on the beach alongside her sister nicole. A troll called 'fatalsplash' then accused Alexis of being a 'gold digger'. Fowler told the hater to 'get your facts straight' following comment.",
+  "summary_sentences": [
+   "rickie fowler accused alexis of being a ` gold digger ' who did n't have to work .",
+   "the golfer was criticised by an online troll for not working due to her relationship with fowler .",
+   "fowler has earned extra brownie points with his legion of fans ."
+  ],
+  "summary_sentences_annotations": [
+   {
+    "annotator_0": [
+     "EntE"
+    ],
+    "annotator_1": [
+     "EntE"
+    ],
+    "annotator_2": [
+     "EntE"
+    ]
+   },
+   {
+    "annotator_0": [
+     "EntE"
+    ],
+    "annotator_1": [
+     "EntE"
+    ],
+    "annotator_2": [
+     "EntE"
+    ]
+   },
+   {
+    "annotator_0": [
+     "NoE"
+    ],
+    "annotator_1": [
+     "NoE"
+    ],
+    "annotator_2": [
+     "NoE"
+    ]
+   }
+  ],
+  "split": "test"
+ },
+
+ {
+    "hash": "36506952",
+    "hash_id": "atricle01",
+    "model_name": "BERTS2S",
+    "article": "Administrators of the ACT test took the decision just hours before some 5500 students were due to sit it. The ACT is one of two entrance exams available to international and domestic students wanting to go to a US college. This is not the first cheating scandal to hit the tests in East Asia. The other entrance exam \"the SAT\" was cancelled in South Korea in 2013 because some of the questions were leaked. The ACT test was due to be held at 56 test centres in both South Korea and Hong Kong on Saturday morning. The Associated Press said teachers at some of Seoul's private \"cram schools\" said they were not notified until about an hour before the students were due to sit the test. ACT Inc, an Iowa-based non-profit organisation that was operating the test, said it took the decision after receiving \"credible evidence that test materials intended for administration in these regions have been compromised\". The organisation said in a statement that all students would get a refund but would only be able to resit when the tests are held again in September.",
+    "summary": "hundreds of students in south korea have had to wait until monday to take part in the university entrance test.",
+    "reference": "an examination for students in south korea and hong kong hoping to study at us colleges has been cancelled after ``credible evidence\\'\\'emerged that it had been leaked in advance.",
+    "split": "test",
+    "question1": "The ACT was canceled because of a leak.",
+    "question2": "This is the first cheating scandal to hit East Asia.",
+    "question3": "The ACT will be tested again in September."
+},
+
+{
+    "hash": "32143053",
+    "hash_id": "atricle02",
+    "model_name": "BERTS2S",
+    "article": "The shooting occurred at a hostel attached to the private Pragati Residential School in Bangalore city. Police say the alleged gunman, identified as Mahesh, was working as an office assistant in the school. Incidents of gun crime at schools and colleges in India are very rare. It is not clear what prompted the shooting.Police said on Thursday that Mahesh had been remanded until 12 April. Mahesh is alleged to have barged into the room of 18-year-old Gautami and shot her in the head with a pistol on on Tuesday evening. He then shot another student, Sirisha, who suffered severe injuries but is believed to be out of danger, say police. He was arrested on Wednesday after a manhunt. India has strict control laws, although a large number of feuds are settled with firearms. In 2007, a 14-year-old schoolboy was shot dead by two fellow students at a school campus near the capital, Delhi.",
+    "summary": "a 19-year-old man has been arrested in connection with the fatal shooting of an 18-year-old student in the southern indian state of",
+    "reference": "a man arrested on suspicion of shooting a female student dead and wounding another at a school in india has been remanded in custody.",
+    "split": "test",
+    "question1": "The shooting occurred at a hostel attached to the School.",
+    "question2": "The shooter was an office assistant at the school.",
+    "question3": "Both students who were victims of the shooting died."
+},
+{
+    "hash": "38329319",
+    "hash_id": "atricle04",
+    "model_name": "BERTS2S",
+    "article": "The charity said tests confirmed all of the cats near Victor Avenue, in Melton Mowbray, Leicestershire, had ingested the toxic substance.In the most recent case, seven-month-old Meereen died on Monday. An RSPCA spokesman said it was unclear whether the poisonings were accidental or deliberate. Updates on this story and more from LeicestershireThree other cats in the area have died in the last seven days, while another cat died two weeks ago.Meereen's \"devastated\" owner, Adria Pearce, said the cat came home on Friday evening and \"seemed to be shivering a little\". \"I haven't been able to stop crying since she died,\" she said. \"We found her behind the sofa, where she was foaming from the mouth and trying to be sick. \"Meereen was taken to the vets - where it was confirmed she had consumed antifreeze - and died three days later. RSPCA inspector, Andy Bostock, is appealing for everyone in the area to ensure pesticides and chemicals were stored safely. \"We are very concerned, \" he said. \"It is the time of year where people use antifreeze in their cars, so if you do, please make sure there are no leaks and any spills are cleaned up properly.\"",
+    "summary": "a cat has died of antifreeze poisoning after eating antifreeze in a car park, the rspca has confirmed.",
+    "reference": "five cats have died from antifreeze poisoning on or near the same street in the space of two weeks, the rspca has said.",
+    "split": "valid",
+    "question1": "The cat poisoning was man-made.",
+    "question2": "Several cats in this street have died from ingesting toxic substances.",
+    "question3": "A cat died after eating antifreeze in a car park."
+},
+{
+    "hash": "34475490",
+    "hash_id": "atricle05",
+    "model_name": "BERTS2S",
+    "article": "Johnny McGurk, 49, appeared in court in County Londonderry accused of theft from quarry firm Patrick Bradley Ltd. Mr McGurk, an accountant, was released on bail and will appear in court again on 19 November. He won an All-Ireland football championship and All-Star award in 1993. Mr McGurk also captained his club Lavey to an All-Ireland senior club championship in 1991. The accused's name was given to Coleraine Magistrates Court as John Malachy McGurk of Oakland Crescent in Knockloughrim, Magherafelt, County Londonderry. He was charged with stealing \u00a3572, 206 from Patrick Bradley Ltd, based in Kilrea, also in County Londonderry. Mr McGurk was also accused of 36 counts of fraud relating to sums of allegedly stolen money lodged in his bank account. All the offences are alleged to have happened between 1 July 2006 and 31 December 2011.",
+    "summary": "the former captain of the county antrim football team has appeared in court charged with stealing more than \u00a350, 000.",
+    "reference": "a gaelic footballer who won an all-ireland championship with derry will stand trial accused of stealing over # 500,000 from his employer.",
+    "split": "test",
+    "question1": "A man was accused of theft.",
+    "question2": "The man who stole was an accountant.",
+    "question3": "All the offences are alleged to have happened between 2006 and 2011."
+},
+
+{
+    "hash": "37471830",
+    "hash_id": "atricle06",
+    "model_name": "BERTS2S",
+    "article": "The first incident saw a 71-year-old woman from Sandyhills tricked by someone claiming to work for BT. Now a woman in Stranraer has lost money to a caller who said he was contacting her about problems with her internet. He claimed to be from BT technical support and gained remote access to her computer to take the cash. The Sandyhills incident happened on 15 September with the Stranraer con taking place seven days later. PC Siobhan Pellett said: \"The ease with which these people seem to be able to gain access to their victim's computer is frightening and the sums of money being taken are substantial. \"We are asking people to be very, very careful when answering a cold call from someone who tries to gain remote access to their computer in order to rectify an alleged fault. \"Our message is worth repeating once again that people should never, never give out any banking details or account numbers over the telephone. \"Banks, building societies and reputable businesses never ask for this information.\"",
+    "summary": "two people in south west scotland have been targeted by telephone scams.",
+    "reference": "a 60-year-old woman in dumfries and galloway has been conned out of # 30,000 just a week after a similar scam netted # 10,000.",
+    "split": "test",
+    "question1": "This report is about telecom fraud.",
+    "question2": "Both incidents occurred in January.",
+    "question3": "In the first case, the scammer claimed to be from BT."
+},
+
+{
+    "hash": "37895159",
+    "hash_id": "atricle07",
+    "model_name": "BERTS2S",
+    "article": "The Cherries went down 2-1 at Sunderland on Saturday, becoming the first team to lose to the Black Cats in the Premier League this season. Dan Gosling's goal, which gave them the lead, was their first for three games. \"It shouldn't be down to a lack of confidence, \" Howe told BBC Radio Solent. \"We scored six goals against Hull prior to these two games. \"He continued: \"A couple of weeks later, if you were to put the chances we've created together into a clip sequence, the fact that we haven't even scored one goal is difficult to take. \"Bournemouth were stunned by goals for Sunderland from Victor Anichebe and a Jermain Defoe penalty and they were unable to find an equaliser, even against 10 men following Steven Pienaar's dismissal. \"We've had enough chances to win three games today, \" Howe added. \"Sometimes football pans out that way and you have to accept it. It's how you move on from that which is key.\"",
+    "summary": "bournemouth manager eddie howe says his side are \" struggling \" after losing 2-0 to hull on saturday.",
+    "reference": "bournemouth boss eddie howe admits his side\\'s sudden lack of confidence in front of goal is ``baffling\\'\\'.",
+    "split": "test",
+    "question1": "The Cherries lost on Saturday.",
+    "question2": "The Cherries lost because of a lack of confidence.",
+    "question3": "The Cherries are the first team to lose to the Black Cats in the Premier League this season."
+},
+
+{
+    "hash": "38955255",
+    "hash_id": "atricle08",
+    "model_name": "BERTS2S",
+    "article": "It issued a yellow warning of wind, saying gusts of up to 75mph (120kmph) could occur locally, particularly to the west of the mountains. It added the unusual easterly direction could add to the impact of the winds. Forecasters said disruption to travel on roads and at sea was likely. The affected counties are Conwy, Anglesey, Gwynedd, Pembrokeshire, Carmarthenshire, Ceredigion and Powys. Gusts overnight brought a tree down in Menai Bridge on Anglesey, closing one of the main routes into the town. The council said Telford Road was expected to remain closed for most of Monday to allow clean-up work to be carried out.",
+    "summary": "the met office has issued a warning of gales and winds of up to 90mph in parts of wales.",
+    "reference": "the met office has warned of very strong winds along the western coastlines of wales throughout the day on monday.",
+    "split": "test",
+    "question1": "It issued a yellow wind warning.",
+    "question2": "It expects gusts of up to 50mph.",
+    "question3": "Road and sea travel will not be affected."
+},
+
+{
+    "hash": "32457391",
+    "hash_id": "atricle09",
+    "model_name": "BERTS2S",
+    "article": "The men entered the Post Office in Quarrywood Avenue, in the Barmulloch area, at 07:55 on Friday. They threatened a member of staff with a knife and demanded money before escaping with the cash. The 27-year-old worker was said by police to have been badly shaken but otherwise unharmed by the ordeal. Both suspects are white, and one of them was about 35-40 years old with short brown hair and wearing a black jumper. Det Sgt Raymond Hunter said officers had been carrying out door-to-door inquiries and were in the process of collecting CCTV images from the surrounding area. He added: \"There are a number of other shops in this area and people may have seen the two men prior to or after the incident. \"I am therefore appealing to anyone who was in the area or any local residents to contact us - any information you have could assist our enquiry.\"",
+    "summary": "two men have been threatened with a knife during a robbery at a post office in glasgow.",
+    "reference": "two men have stolen a five-figure sum of money during an armed robbery at a post office in glasgow.",
+    "split": "test",
+    "question1": "The staff member who was robbed was injured.",
+    "question2": "Both suspects are white.",
+    "question3": "Both suspects have been arrested."
+},
+
+{
+    "hash": "36390416",
+    "hash_id": "atricle10",
+    "model_name": "BERTS2S",
+    "article": "The 25-year-old moved to the Red Rose from Somerset in 2013 and his new deal ties him to the club until 2019. Short-format specialist Buttler has scored England's three fastest ODI centuries, including a 46-ball ton against Pakistan last year. \"Jos is one of the most talented cricketers in the game, \" said cricket director and head coach Ashley Giles. \"His presence in last year's T20 Blast final at Edgbaston was a factor in us winning the competition. \"Jos is a great guy to have in the dressing room too and his experience at international level really benefits the squad. \"Buttler, who has been playing in the Indian Premier League with Mumbai Indians, will return to Lancashire for Friday's T20 Blast home game against Durham.",
+    "summary": "england batsman jos buttler has signed a new two-year contract with lancashire.",
+    "reference": "england wicketkeeper jos buttler has signed a new three-year contract with lancashire.",
+    "split": "test",
+    "question1": "The 25-year-old switched to the Red Rose in 2015.",
+    "question2": "Buttler has scored England's three fastest ODI centuries.",
+    "question3": "The head coach praised Bakis for his talent."
+},
+
+{
+    "hash": "996940764a066a9c16f622c873ad041ac5521fa3",
+    "model_name": "bart",
+    "article": "Kayahan, one of Turkey's best-loved singers and songwriters, died of cancer Friday at the age of 66. He had performed most recently in Istanbul on Valentine's Day. The performer, who was also an accomplished guitarist, was first diagnosed with cancer in 1990, the year he competed in the Eurovision Song Contest, and the year before he released the album that ignited his career. The cancer returned in 2005 and then again in 2014, Turkey's semiofficial Anadolu Agency reported. He died Friday in a hospital in Istanbul, five days after his 66th birthday. \"We are in grief over losing Kayahan, who contributed to Turkish music with countless compositions and marked a generation with his songs,\" Prime Minister Ahmet Davutoglu tweeted. The singer, whose full name was Kayahan Acar, was born in Izmir province, in western Turkey on March 29, 1949. He grew up in Ankara, Turkey's capital, before moving to Istanbul. In 1990, he competed in the Eurovision Song Contest, finishing 17th. The following year he released an album titled \"I Made a Vow,\" which catapulted him to prominence. Though he recorded nearly 20 albums, that one would remain his most popular. His final album was released in 2007. Other artists recorded his material throughout his career. Videos available online show a vibrant performer with a thick shock of dark hair as he accompanies himself on guitar and croons in a clear tenor. Kayahan was best known for his love songs. More recent videos show a  frailer performer, seated and without a guitar, but still clearly glorying in the joy of singing a song.",
+    "summary": "kayahan was diagnosed with cancer in 1990 , the year he competed in the eurovision song contest . he died friday in a hospital in istanbul , five days after his 66th birthday . `` we are in grief over losing kayahan , '' prime minister ahmet davutoglu tweets.",
+    "reference": "kayahan wrote some of turkey 's best-loved pop songs . the singer was first diagnosed with cancer in 1990 . he most recently performed in february in istanbul .",
+    "summary_sentences": [
+        "Kayahan was diagnosed with cancer in 1990 , the year he competed in the Eurovision Song Contest .",
+        "He died Friday in a hospital in Istanbul , five days after his 66th birthday . `",
+        "` We are in grief over losing Kayahan , '' Prime Minister Ahmet Davutoglu tweets ."
+    ],
+    "words":"263",
+    "theme":"Kayahan, a beloved Turkish singer-songwriter, dies.",
+    "difficulty":"easy",
+    "Question1":"Kayahan was diagnosed with cancer",
+    "Question2":"Kayahan died in 1990",
+    "Question3":"Kayahan died in a hospital in Istanbul",
+    "Answer1":"true",
+    "Answer2":"true",
+    "Answer3":"true"
+},
+
+{
+    "hash": "33751212",
+    "model_name": "TConvS2S",
+    "article": "More than 5,300 bottles of alcohol were seized by the investigators in the southern city of Liuzhou. They also found packets of a white powder called Sildenafil, better known as the anti-impotence drug Viagra. Police in the Guangxi region are now investigating the two distillers. The Liuzhou Food and Drug Administration said (in Chinese) that the powder was added to three different types of 'baijiu' - a strong, clear spirit that is the most popular drink in China. They said the haul was worth up to 700,000 yuan. Doctors recommend that adults requiring prescription should take only one dose of Viagra a day, with a lower dose for those over the age of 65. China continues to face widespread food safety problems. In June, police in cities across China seized more than 100,000 tonnes of smuggled meat, some of which was more than 40 years old. The 2008 tainted milk scandal outraged the nation. Some 300,000 people were affected and at least six babies died after consuming milk adulterated with melamine.",
+    "summary": "chinese police say they have found a drug that led to the death of two young people in china.",
+    "reference": "distillers in china added viagra to thousands of bottles of spirits and told customers it had ``health-preserving qualities\\'\\', food safety officials say.",
+    "summary_sentences": [
+        "chinese police say they have found a drug that led to the death of two young people in china."
+    ],
+    "words":"164",
+    "theme":"Seizure of alcohol laced with Viagra.",
+    "difficulty":"normal",
+    "Question1":"Distillers in China added Viagra to thousands of bottles of spirits.",
+    "Question2":"Distillers tell customers that the spirits had \"health-preserving qualities\". ",
+    "Question3":"The drug led to the death of two young people in China.",
+    "Answer1":"true",
+    "Answer2":"true",
+    "Answer3":"false",
+    "split": "test"
+},
+
+{
+    "hash": "33721182",
+    "model_name": "BERTS2S",
+    "article": "The Briton finished more than two minutes ahead of Poland's Anna Harkowska in Nottwil, Switzerland. Storey can win a 17th title when she rides in Saturday's road race. \"It's a massive relief to win,\" said the 37-year-old, who is targeting further Paralympic success at next year's Games in Rio de Janeiro. Storey is Britain's most decorated female Paralympian with 22 medals. She has won 11 gold, eight silver and three bronze medals in both cycling and swimming across six Paralympics. She won four golds at the 2012 Games in London and has now won 21 world titles across both sports. Storey began her sporting career in the pool, winning six medals at the 1992 Paralympics before switching to cycling in 2005.",
+    "summary": "dame sarah storey won her second uci road cycling world championships title with victory in the women's road race.",
+    "reference": "dame sarah storey claimed the 16th world title of her cycling career with gold in the time trial at the para-cycling road world championships.",
+    "summary_sentences": [
+        "dame sarah storey won her second uci road cycling world championships title with victory in the women's road race."
+    ],
+    "words":"115",
+    "theme":"Paralympic cyclist Sarah Storey's victory.",
+    "difficulty":"normal",
+    "summary_sentences_annotations": [
+        {
+            "annotator_0": [
+                "OutE"
+            ],
+            "annotator_1": [
+                "CircE"
+            ],
+            "annotator_2": [
+                "OutE"
+            ]
+        }
+    ],
+    "Question1":"Storey has won a total of 22 medals.",
+    "Question2":"Storey won a gold medal at the para-cycling road world championships.",
+    "Question3":"Storey begun her sporting career in cycling in 2005.",
+    "Answer1":"true",
+    "Answer2":"true",
+    "Answer3":"false",
+    "split": "valid"
+},
+
+{
+    "hash": "35265124",
+    "model_name": "BERTS2S",
+    "article": "The girl, aged 15 at the time, had met a man called David Ayrton in a Portsmouth garage in the autumn of 2004. The defendant, now 34 and called Davina, denied the charge. She will be sentenced on 4 March. Judge Ian Pearson remanded her into custody and said it was likely she would be held at a male prison. He added: \"If I were to release on bail there are substantial grounds to believe she would be a risk to herself and a risk of failing to attend for whatever reason.\" I will therefore have to remand in custody. It will have to be a male prison in Winchester but it will be an issue for the prison service.\" He also told the jury at Portsmouth Crown Court: \"It's been a slightly unusual case and it's not been an easy case.\" The court heard that Ayrton, who has learning difficulties, attempted to commit suicide last summer. Protocols have been put in place for her detention at the prison, a court officer explained.During the trial Ayrton spoke about her sexuality, and said she she had not \"made any physical changes or enhancements\" to her body or taken any medication. She changed her name in 2012. Portsmouth Crown Court was told she raped the teenager while two others were asleep in the garage. The victim said she shouted and swore at Ayrton to stop the attack, but her friends had not woken up. She had \"only drunk a can and a half of Foster's\" and clearly recollected the events. The court heard that in 2014 Ayrton told a worker at the care home where she lived in Fordingbridge, Hampshire, about the attack.",
+    "summary": "a woman has been found guilty of raping a teenage girl in a care home while she was under the age of 12.",
+    "reference": "a transgender woman has been found guilty of raping a girl when still living as a man.",
+    "summary_sentences": [
+        "a woman has been found guilty of raping a teenage girl in a care home while she was under the age of 12."
+    ],
+    "summary_sentences_annotations": [
+        {
+            "annotator_0": [
+                "CircE"
+            ],
+            "annotator_1": [
+                "EntE",
+                "CircE"
+            ],
+            "annotator_2": [
+                "CircE"
+            ]
+        }
+    ],
+    "Question1":"The defendant was found guilty of rape",
+    "Question2":"The defendant denied the charge of rape.",
+    "Question3":"The defendant will be held in a male prison",
+    "Answer1":"true",
+    "Answer2":"true",
+    "Answer3":"true",
+    "split": "test"
+},
+
+{
+    "hash": "40605628",
+    "model_name": "BERTS2S",
+    "article": "Visitors to the Hebridean Celtic Festival will be able to use an app to trigger online information from items such as signs and posters on the site.Videos and band interviews will be among the online material available to view on phones and tablets. HebCelt is is taking place in Stornoway on the Isle of Lewis from 19 to 22 July. The Waterboys, Imelda May, Lucy Spraggan, Skerryvore, Peatbog Faeries and Dougie MacLean are among this year's acts. HebCelt director Caroline Maclennan said: \"We are offering the new augmented reality experience as an extra feature to add to the enjoyment of visiting the festival this year.\" But it will also mean people around the world can interact with the festival and capture a flavour of its atmosphere at any time.\" The message will be updated in the run up to HebCelt and during the event, allowing people to instantly access information and interviews, buy tickets and also get a taste of our unique festival wherever they are.\"",
+    "summary": "people will soon be able to watch digital information at next year\\'s celtic music festival.",
+    "reference": "a scottish music event is to offer festival-goers an augmented reality experience.",
+    "summary_sentences": [
+        "people will soon be able to watch digital information at next year\\'s celtic music festival."
+    ],
+    "summary_sentences_annotations": [
+        {
+            "annotator_0": [
+                "OutE"
+            ],
+            "annotator_1": [
+                "OutE"
+            ],
+            "annotator_2": [
+                "CircE"
+            ]
+        }
+    ],
+    "split": "valid",
+    "Question1":"Scottish music event HebCelt is taking place in Stornoway.",
+    "Question2":"Scottish music event HebCelt is taking place in from 19 to 22 July",
+    "Question3":"The AR experience will only be available during the festival.",
+    "Answer1":"true",
+    "Answer2":"true",
+    "Answer3":"false"
+}
+
+]
+
