@@ -12,6 +12,9 @@ https://drive.google.com/file/d/1lpr5afFRBqpLHXvArU_zZ2mS9xMmu75w/view?usp=share
 EXP4
 https://drive.google.com/file/d/1F77gi4kEHRsownrJ0MTmTKdftd7N-KRk/view?usp=share_link
 
+EXP5
+https://drive.google.com/file/d/1pB5Y7eNnHYYbJJX3e6uVXGo-CFZVjU2a/view?usp=share_link
+
 ## play article DATA
 ./data/EXP2_play_data
 
@@ -23,6 +26,9 @@ https://drive.google.com/file/d/1439tYodBR7QPmIBFsPnW3DCgJO0cRNNY/view?usp=share
 
 EXP4
 https://drive.google.com/file/d/1OIe6BzOB_p4vT0QTT6oV9Xl_Hl08t3ru/view?usp=share_link
+
+EXP5
+https://drive.google.com/file/d/17fReJpHL0o3lGQLIS9MCuwVQjurBtZ6X/view?usp=share_link
 
 ## corpus
 ./corpus/
